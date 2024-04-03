@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>флекс бокс</title>
+    <link rel="stylesheet" href="css/chota.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Флексы и боксы</h1>
+        <a href="https://tpverstak.ru/flex-cheatsheet/" target="_blank">Шпаргалка по Flexbox CSS &rArr;</a>
+        <br>
+        <a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank">Yoksel Flexbox CSS &rArr;</a>
+        <br>
+        <a href="https://doka.guide/css/flexbox-guide/" target="_blank">Гайд по flexbox Дока &rArr;</a>
+
+        <h2>flex-direction</h2>
+        <h3 class="text1">row</h3>
+        <div class="wrapper">
+            <div class="parent">
+                <div class="child"><img src="img/ч.jpg" alt=""></div>
+                <div class="child"><img src="img/а.jpg" alt=""></div>
+                <div class="child"><img src="img/й.jpg" alt=""></div>
+            </div>
+
+            <div class="">
+                <div class=""><button class="button btn-1">row</button></div>
+                <div class=""><button class="button btn-2">row-reverse</button></div>
+                <div class=""><button class="button btn-3">column</button></div>
+                <div class=""><button class="button btn-4">column-reverse</button></div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2>justify-content</h2>
+        <h3 class="text2">flex-start</h3>
+        <div class="wrapper">
+            <div class="parent2">
+                <div class="child2"><img src="img/col.png" alt=""></div>
+                <div class="child2"><img src="img/col.png" alt=""></div>
+                <div class="child2"><img src="img/col.png" alt=""></div>
+            </div>
+
+            <div class="">
+                <div class="">
+                    <button class="button btn-5">flex-start</button>
+                    <button class="button btn-6">flex-end</button>
+                    <button class="button btn-7">center</button>
+                </div>
+                <div class="">
+                    <button class="button btn-8">space-between</button>
+                    <button class="button btn-9">space-around</button>
+                    <button class="button btn-10">space-evenly</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2>align-items</h2>
+        <h3 class="text3">flex-start</h3>
+        <div class="wrapper">
+            <div class="parent3">
+                <div class="child3"><img src="img/keglia.png" alt=""></div>
+                <div class="child3"><img src="img/keglia.png" alt=""></div>
+                <div class="child3"><img src="img/keglia.png" alt=""></div>
+                <div class="child3"><img class="ball" src="img/shar.png" alt=""></div>
+
+            </div>
+
+            <div class="">
+                <div class="">
+                    <button class="button btn-11">flex-start</button>
+                    <button class="button btn-12">flex-end</button>
+                    <button class="button btn-13">center</button>
+                </div>
+                <div class="">
+                    <button class="button btn-14">baseline</button>
+                    <button class="button btn-15">stretch</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2>Order</h2>
+        <h3 class="text4">0</h3>
+        <div class="text4-span"></div>
+        <div class="wrapper">
+            <div class="parent4">
+                <div class="child4"><img src="img/1.webp" alt=""></div>
+                <div class="child4"><img src="img/2.webp" alt=""></div>
+                <div class="child4 order"><img src="img/3.jpg" alt=""></div>
+                <div class="child4"><img src="img/4.webp" alt=""></div>
+            </div>
+
+            <div class="">
+                <div class="">
+                    <button class="button btn-16">-1</button>
+                    <button class="button btn-17">0</button>
+                    <button class="button btn-18">1</button>
+                </div>
+                <div class="">
+                    <button class="button btn-19">column</button>
+                    <button class="button btn-20">row</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="container">
+        <h2>Gap</h2>
+        <h3 class="text5"></h3>
+        <div class="text5-span"></div>
+        <div class="wrapper">
+            <div class="parent5">
+                <div class="child5"><img src="img/gap1.jpg" alt=""></div>
+                <div class="child5"><img src="img/gap2.jpg" alt=""></div>
+                <div class="child5"><img src="img/gap3.jpg" alt=""></div>
+                <div class="child5"><img src="img/gap.jpg" alt=""></div>
+
+                <div class="child5"><img src="img/gap2.webp" alt=""></div>
+                <div class="child5"><img src="img/gap3.webp" alt=""></div>
+
+                <div class="child5"><img src="img/gap1.jpg" alt=""></div>
+                <div class="child5"><img src="img/gap2.jpg" alt=""></div>
+                <div class="child5"><img src="img/gap.jpg" alt=""></div>
+            </div>
+
+
+            <div class="gaps">
+                <div>
+                    <input class="gap1" type="number" value="0">
+                    <img class="strelka" src="img/strelka-top.png" alt="">
+                </div>
+                <div>
+                    <input class="gap2" type="number" value="0">
+                    <img class="strelka-top" src="img/strelka.png" alt="">
+                </div>
+
+                <button class="button btn-21">enter</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <a href="https://code.mu/ru/markup/book/prime/" target="_blank">Трепачев code.mu/ru/ &rArr;</a>
+        <br>
+        <br>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

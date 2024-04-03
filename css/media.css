@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+    .wrapper {
+        display: block;
+        padding-bottom: 90px;
+    }
+
+    .parent,
+    .parent2,
+    .parent3,
+    .parent4 {
+        margin-bottom: 30px;
+    }
+
+    .gaps {
+        display: flex;
+        justify-content: center;
+        margin-right: 2%;
+        padding-left: 10px;
+        padding-left: 35px;
+    }
+
+    .gaps .strelka {
+        height: 30px;
+        width: 10px;
+        margin-right: 18px;
+        margin-left: 5px;
+    }
+
+    .gaps .strelka-top {
+        width: 30px;
+        height: 10px;
+        margin-right: 18px;
+        margin-left: 5px;
+    }
+
+    button.btn-21 {
+        margin-left: 10px;
+    }
+
+}

@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: row;
+
+    width: 400px;
+    height: 300px;
+    border: 2px solid #bdbdbd;
+    background-color: #FFFFD5;
+    border-radius: 3px;
+}
+
+.parent img {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent.reverse {
+    /*    flex-direction: row-reverse;*/
+
+    /*
+    flex-direction: column;
+    flex-direction: column-reverse;
+*/
+}
+
+
+.child {
+    width: 80px;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 3px;
+    background-color: #fff;
+}
+
+
+.parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border: 2px solid #bdbdbd;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.parent2 img {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child2 {
+    height: 120px;
+    width: auto;
+    border: none;
+    background-color: #fff;
+}
+
+.text2 {}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+
+.button {
+    margin: 10px;
+}
+
+img {
+    height: 60px;
+}
+
+
+.parent3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /*
+    background-image: url('../kletka.jpg');
+    background-size: cover;
+    background-position: center;
+*/
+    border: 2px solid #bdbdbd;
+    background-color: #FFFFD5;
+    width: 500px;
+    height: 300px;
+    /*    align-items: center;*/
+}
+
+.child3 {
+    width: 90px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    background-color: #ededed;
+}
+
+.child3 img {
+    height: 150px;
+}
+
+img.ball {
+    height: 90px;
+}
+
+
+.parent4 {
+    display: flex;
+}
+
+.child4 {
+    width: 100px;
+    height: 100px;
+}
+
+.child4 img {
+/*    height: 100px;*/
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin: 0;
+}
+
+
+.order {
+    order: 0;
+/*    background-color: #FFFFAC;*/
+}
+
+.text4-span {
+    text-align: center;
+}
+
+
+.parent5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 520px;
+    height: auto;
+    line-height: 0;
+}
+
+.child5 img {
+    width: 150px;
+    height: auto;
+}
+
+input.gap1 {
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input.gap2 {
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button.btn-21 {
+    margin-left: 0;
+}
+
+.gaps {
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.gaps div {
+    display: flex;
+    align-items: center;
+}
+
+.gaps .strelka {
+    height: 30px;
+    width: 10px;
+    margin-left: 9px;
+}
+
+.gaps .strelka-top {
+    width: 30px;
+    height: 10px;
+}
+
